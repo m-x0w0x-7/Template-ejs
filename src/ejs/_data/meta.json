@@ -1,0 +1,33 @@
+{
+  "default": {
+    "title": "default title",
+    "description": "default description",
+    "url": "http://example.com/",
+    "type": "article",
+    "image": "",
+    "siteName": "test site",
+    "appId": "",
+    "twitter": "",
+    "favicon": "",
+    "icon": "",
+    "canonical": "http://example.com/"
+  },
+
+  "top": {
+    "title": "document",
+    "description": "home description",
+    "canonical": "http://example.com/"
+  },
+
+  "test": {
+    "title": "page - document",
+    "description": "page description",
+    "canonical": "http://example.com/page/"
+  },
+
+  "list": {
+    "title": "page - document",
+    "description": "page description",
+    "canonical": "http://example.com/page/"
+  }
+}

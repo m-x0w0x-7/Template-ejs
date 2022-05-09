@@ -1,0 +1,20 @@
+// * ============================== * //
+
+// display setting
+
+// * ============================== * //
+
+// display
+// ----------------------------------------
+.u-pc_only {
+  display: none;
+  @include mq() {
+    display: inline-block;
+  }
+}
+
+.u-sp_only {
+  @include mq() {
+    display: none;
+  }
+}

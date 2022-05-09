@@ -1,0 +1,23 @@
+// * ============================== * //
+
+// variables setting
+// ex. width, radius, transtion
+
+// * ============================== * //
+
+// width
+$width_site : 2000px;
+
+$width_site_inner : 1600px;
+
+$width_main : 780px;
+
+$width_side : calc( #{ $width_site_inner } - #{ $width_main } - 20px );
+
+
+// radius
+$radius : 4px;
+
+
+// transition
+$transition : all 0.5s ease;

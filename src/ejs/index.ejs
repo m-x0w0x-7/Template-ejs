@@ -1,0 +1,13 @@
+<%
+var page = {
+  id: 'top',
+  meta: meta['top'],
+  path: './'
+};
+%>
+
+<%- include(page.path + '_layout/_layout_header', {page: page}); %>
+
+トップページ
+
+<%- include(page.path + '_layout/_layout_footer', {page: page}); %>
